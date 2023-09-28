@@ -1,0 +1,20 @@
+{
+    "name": "jgarlandh/phpfw-intro",
+    "description": "Proyecto basico introductorio a Frameworks en PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesus Garland",
+            "email": "jgarlandh@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
